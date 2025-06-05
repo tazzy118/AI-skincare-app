@@ -9,8 +9,9 @@ I developed an AI-powered skincare detection system designed to improve accuracy
 
 - <b>Python</b> 
 - <b>Flask</b>
-- <b>OpenCv</b>
-- <b>YoloV11</b>
+- <b>OpenCV CLAHE</b>
+- <b>Yolov11</b>
+- <b>Pandas / NumPy</b>
 - <b>Roboflow</b>
 
 <h2>Environments Used </h2>
