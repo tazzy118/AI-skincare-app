@@ -19,7 +19,7 @@ I developed an AI-powered skincare detection system designed to improve accuracy
 - <b>Google Collab</b>
 - <b>Sublime</b>
 
-<h2>🎥 Programming Project Demo:</h2>
+<h2>🎥 AI Skincare Project Demo:</h2>
 
   - [Skincare Application (Dissertaion)](https://youtu.be/WUEDiSRAwGw)
 
