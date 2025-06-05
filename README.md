@@ -18,11 +18,17 @@ I developed an AI-powered skincare detection system designed to improve accuracy
 - <b>Google Collab</b>
 - <b>Sublime</b>
 
+<h2>🎥 Programming Project Demo:</h2>
+
+  - [Skincare Application (Dissertaion)](https://youtu.be/WUEDiSRAwGw)
+
 <h2>AI Skincare Application:</h2>
 
 <p align="center">
 Acne Skin <br/>
 <img src="https://imgur.com/S41gcTV"/>
+![acne ss](https://github.com/user-attachments/assets/37906786-108a-477a-a447-eff61d4faa7f)
+  
 <br />
 <br />
 Acne Skin reccomendation  <br/>
