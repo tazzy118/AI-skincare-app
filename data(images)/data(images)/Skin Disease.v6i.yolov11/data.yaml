@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Acne', 'Atopic Dermatitis', 'Chicken Skin', 'Eczema', 'Hansen-s Disease-Leprosy', 'Hansen-s Disease-Leprosy- severe', 'Healthy skin', 'Psoriasis', 'Ringworm', 'Warts']
+
+roboflow:
+  workspace: skin-disease
+  project: skin-disease-vrvtv
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skin-disease/skin-disease-vrvtv/dataset/6
