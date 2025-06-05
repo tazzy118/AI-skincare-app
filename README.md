@@ -1,4 +1,4 @@
-<h1>Ai Skincare Application 💻</h1>
+<h1>AI Skincare Application 1st Class🔬🧴</h1>
 
 <h2>Description</h2>
 In my first year of university, I created the social networking software Virality. I primarily used C#, MySQL, and php. Even though it wasn't flawless, I had a lot of fun making it because it was something new for me and I wanted to push myself. The most enjoyable thing I've done is add an OTP system, which was both cool and really difficult. I did manage to complete it, though, and it made me feel really accomplished. Both the admin and user sides are available. The PDF contains a full description of my software methodology process.
@@ -18,14 +18,22 @@ In my first year of university, I created the social networking software Viralit
 - <b>Google Collab</b>
 - <b>Sublime</b>
 
-<h2>Figma Prototype:</h2>
+<h2>AI Skincare Application:</h2>
 
 <p align="center">
-User side <br/>
-<img src="https://i.imgur.com/8WsmEIr.png"/>
+Acne Skin <br/>
+<img src="https://imgur.com/S41gcTV"/>
 <br />
 <br />
-Admin side  <br/>
-<img src="https://i.imgur.com/XXnGWot.png"/>
+Acne Skin reccomendation  <br/>
+<img src="https://imgur.com/l3fcbIy"/>
+<br />
+<br />
+Exczema Skincare <br/>
+<img src="https://imgur.com/S41gcTV"/>
+<br />
+<br />
+Exczema Skincare reccomendation  <br/>
+<img src="https://imgur.com/l3fcbIy"/>
 <br />
 <br />
