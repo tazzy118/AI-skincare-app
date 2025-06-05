@@ -15,6 +15,7 @@ In my first year of university, I created the social networking software Viralit
 
 <h2>Environments Used </h2>
 
+- <b>Google Collab</b>
 - <b>Sublime</b>
 
 <h2>Figma Prototype:</h2>
