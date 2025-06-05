@@ -25,21 +25,29 @@ I developed an AI-powered skincare detection system designed to improve accuracy
 <h2>AI Skincare Application:</h2>
 
 <p align="center">
-Acne Skin <br/>
-<img src="https://imgur.com/S41gcTV"/>
-![acne ss](https://github.com/user-attachments/assets/37906786-108a-477a-a447-eff61d4faa7f)
+Acne Skin:<br />
   
+![acne ss](https://github.com/user-attachments/assets/9fa9e047-7a50-41d3-b8ba-50802ef4921d)
+
+<br />
+<br/>
+<p align="center">
+Acne Skincare reccomendation: <br/> 
+  
+![acne rec](https://github.com/user-attachments/assets/75a84178-c89c-43a1-a990-87ad4c47300b)
+
+<br />
+<p align="center">
+Exczema Skin: <br/>
+
+![ex ss](https://github.com/user-attachments/assets/12ee14d5-65d1-48e1-9039-8e5a80db3d1c)
+
 <br />
 <br />
-Acne Skin reccomendation  <br/>
-<img src="https://imgur.com/l3fcbIy"/>
-<br />
-<br />
-Exczema Skincare <br/>
-<img src="https://imgur.com/S41gcTV"/>
-<br />
-<br />
-Exczema Skincare reccomendation  <br/>
-<img src="https://imgur.com/l3fcbIy"/>
+<p align="center">
+Exczema Skincare reccomendation:  <br/>
+
+![ex rec](https://github.com/user-attachments/assets/e6cb3adc-c773-4ff3-b69c-1c28bcc3114c)
+
 <br />
 <br />
