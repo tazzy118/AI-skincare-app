@@ -1,7 +1,7 @@
-<h1>Ai Skincare Application 💻</h1>
+<h1>AI Skincare Application 1st Class🔬🧴</h1>
 
 <h2>Description</h2>
-In my first year of university, I created the social networking software Virality. I primarily used C#, MySQL, and php. Even though it wasn't flawless, I had a lot of fun making it because it was something new for me and I wanted to push myself. The most enjoyable thing I've done is add an OTP system, which was both cool and really difficult. I did manage to complete it, though, and it made me feel really accomplished. Both the admin and user sides are available. The PDF contains a full description of my software methodology process.
+I developed an AI-powered skincare detection system designed to improve accuracy and fairness in dermatological analysis, particularly for melanin-rich skin tones, which are often underrepresented in AI models. The application uses YOLOv11 for image classification, OpenCV CLAHE for contrast enhancement, and Flask for backend processing, ensuring efficient detection of skin conditions such as acne and eczema while maintaining secure data handling. To enhance inclusivity, I incorporated bias mitigation techniques and ethical AI principles, aligning with BCS and ACM standards as well as GDPR compliance to promote fair and transparent AI decision-making. Awarded a First-Class with 74 percent, this project showcases expertise in machine learning, image processing, and full stack development, demonstrating its potential for real world AI solutions in dermatology.  
 <br/>
 
 
@@ -9,22 +9,46 @@ In my first year of university, I created the social networking software Viralit
 
 - <b>Python</b> 
 - <b>Flask</b>
-- <b>OpenCv</b>
-- <b>YoloV11</b>
+- <b>OpenCV CLAHE</b>
+- <b>Yolov11</b>
+- <b>Pandas / NumPy</b>
 - <b>Roboflow</b>
 
 <h2>Environments Used </h2>
 
+- <b>Google Collab</b>
 - <b>Sublime</b>
 
-<h2>Figma Prototype:</h2>
+<h2>🎥 AI Skincare Project Demo:</h2>
+
+  - [Skincare Application (Dissertaion)](https://youtu.be/WUEDiSRAwGw)
+
+<h2>AI Skincare Application:</h2>
 
 <p align="center">
-User side <br/>
-<img src="https://i.imgur.com/8WsmEIr.png"/>
+Acne Skin:<br />
+  
+![acne ss](https://github.com/user-attachments/assets/9fa9e047-7a50-41d3-b8ba-50802ef4921d)
+
+<br />
+<br/>
+<p align="center">
+Acne Skincare reccomendation: <br/> 
+  
+![acne rec](https://github.com/user-attachments/assets/75a84178-c89c-43a1-a990-87ad4c47300b)
+
+<br />
+<p align="center">
+Exczema Skin: <br/>
+
+![ex ss](https://github.com/user-attachments/assets/12ee14d5-65d1-48e1-9039-8e5a80db3d1c)
+
 <br />
 <br />
-Admin side  <br/>
-<img src="https://i.imgur.com/XXnGWot.png"/>
+<p align="center">
+Exczema Skincare reccomendation:  <br/>
+
+![ex rec](https://github.com/user-attachments/assets/e6cb3adc-c773-4ff3-b69c-1c28bcc3114c)
+
 <br />
 <br />
