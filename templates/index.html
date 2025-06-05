@@ -1,0 +1,176 @@
+<!-- Reference: Web Accessibility Guidelines -->
+<!-- https://www.w3.org/WAI/standards-guidelines/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Aplication</title>
+    <style>
+        /* General Styles */
+        /* Styling for the entire webpage */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111111;
+            color: #ffffff;
+            text-align: center;
+        }
+        /* Reference: Web Accessibility Guidelines */
+        /* https://www.w3.org/WAI/standards-guidelines/ */
+        /* Header */
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333333;
+            padding: 30px;
+            gap: 300px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #FF4081;
+        }
+        /* Reference: Responsive Design Guide */
+        /* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design */
+        /* Upload Form */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #222222;
+            padding: 30px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        input[type="file"] {
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #666666;
+            background-color: #333333;
+            color: white;
+            border-radius: 5px;
+        }
+        button[type="submit"] {
+            background-color: #FF4081;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        button[type="submit"]:hover {
+            background-color: #e63e77;
+        }
+
+        /* Results & Skincare Routine */
+        .results {
+            margin-top: 30px;
+        }
+        .results img {
+            display: block;
+            margin: 20px auto;
+            max-width: 90%;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        .skincare-routine {
+            margin-top: 20px;
+        }
+        .skincare-routine img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000000;
+            padding: 25px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>Skincare Application</header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+    </nav>
+    <!--navigation bar with links -->
+    <div class="container">
+        <h2>Upload Images</h2>
+        <!-- Upload form -->
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="files" accept="image/png, image/jpeg" multiple>
+            <button type="submit">Upload and Process Images</button>
+        </form>
+
+        {% if processed_files %}
+        <div class="results">
+            <h2>Processed Results</h2>
+            {% for file_url in processed_files %}
+                <img src="{{ file_url }}" alt="Processed Image">
+            {% endfor %}
+        </div>
+        {% endif %}
+        <!--displays uploaded images after processing -->
+        {% if detected_conditions %}
+        <div class="results">
+            <h2>Detected Skin Condition(s)</h2>
+            <p>{{ detected_conditions }}</p>
+        </div>
+        {% endif %}
+        <!-- sshows detected skin conditions -->
+        {% if skincare_routines %}
+<div class="skincare-routine">
+    <h2>Recommended Skincare Routine</h2>
+    {% for routine in skincare_routines %}
+        <div class="routine-step">
+            <h3>{{ routine.step }}</h3>
+            <img src="{{ routine.image }}" alt="{{ routine.step }}">
+            <p>{{ routine.description }}</p>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+    <!--displays recommended skincare routines based on detected condition -->
+    </div>
+
+    <footer><strong>This website is a Proof of Concept. No medical advice provided.</strong></footer>
+</body>
+</html>
+
+<!-- Disclaimer stating this is only a proof of concept -->
+
+<!-- References-->
+<!-- Web Accessibility Guidelines: https://www.w3.org/WAI/standards-guidelines/ -->
+<!-- Responsive Design Guide: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design -->
+<!-- Google Fonts Library: https://fonts.google.com/ -->
+
+<!--credit for letting me use their images DR v, Acnecide,Cerave-->
+<!--https://www.skincarebydrv.com/?srsltid=AfmBOoqfa_sE3LMy9G5huvOedgzVsMH0oc0bWD9KgB9a73sKXSYeDn4y-->
+<!--https://acnecide.co.uk/-->
+<!--https://www.cerave.com/-->
