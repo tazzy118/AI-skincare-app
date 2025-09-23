@@ -39,14 +39,14 @@ Acne Skincare reccomendation: <br/>
 
 <br />
 <p align="center">
-Exczema Skin: <br/>
+Eczema Skin: <br/>
 
 ![ex ss](https://github.com/user-attachments/assets/12ee14d5-65d1-48e1-9039-8e5a80db3d1c)
 
 <br />
 <br />
 <p align="center">
-Exczema Skincare reccomendation:  <br/>
+Eczema Skincare reccomendation:  <br/>
 
 ![ex rec](https://github.com/user-attachments/assets/e6cb3adc-c773-4ff3-b69c-1c28bcc3114c)
 
